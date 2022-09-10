@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppNavigation</string>
+    <string name="don_t_have_">Don\u00E2\u0080\u0099t have account ? Create Account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in_and">Sign in and start managing your candidates!</string>
+
 </resources>
