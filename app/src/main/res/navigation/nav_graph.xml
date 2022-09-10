@@ -3,37 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/navigationLogin">
 
-    <fragment
-        android:id="@+id/loginFragment"
-        android:name="com.example.appnavigation.LoginActivity"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login" >
+    <navigation android:id="@+id/navigationLogin"
+        app:startDestination="@id/loginFragment">
+        <fragment
+            android:id="@+id/loginFragment"
+            android:name="com.example.appnavigation.LoginFragment"
+            android:label="fragment_login"
+            tools:layout="@layout/fragment_login" />
         <action
-            android:id="@+id/action_loginFragment_to_forgetPasswordFragment"
-            app:destination="@id/forgetPasswordFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/forgetPasswordFragment"
-        android:name="com.patika.week3appnavigation.ForgetPasswordFragment"
-        android:label="fragment_forget_password"
-        tools:layout="@layout/fragment_forget_password" >
-        <action
-            android:id="@+id/action_forgetPasswordFragment_to_dialogScreen"
-            app:destination="@id/dialogScreen" />
-    </fragment>
-    <dialog
-        android:id="@+id/dialogScreen"
-        android:name="com.patika.week3appnavigation.DialogScreen"
-        android:label="DialogScreen" >
-        <action
-            android:id="@+id/action_dialogScreen_to_homeActivity"
-            app:destination="@id/homeActivity"/>
-    </dialog>
-    <activity
-        android:id="@+id/homeActivity"
-        android:name="com.patika.week3appnavigation.HomeActivity"
-        android:label="activity_home"
-        tools:layout="@layout/activity_home" />
+            android:id="@+id/action_loginFragment_to_mainFragment"
+            app:destination="@id/navigationMain"
+            app:popUpTo="@id/navigationLogin"
+            app:popUpToInclusive="true"/>
+    </navigation>
+    <navigation android:id="@+id/navigationMain"
+        app:startDestination="@id/mainFragment">
+        <fragment
+            android:id="@+id/mainFragment"
+            android:name="com.example.appnavigation.MainFragment"
+            android:label="fragment_main"
+            tools:layout="@layout/fragment_main" />
+
+    </navigation>
 </navigation>
