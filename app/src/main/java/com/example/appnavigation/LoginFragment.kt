@@ -17,17 +17,27 @@ class LoginFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         fragmentLoginBinding = FragmentLoginBinding.inflate(layoutInflater)
         return fragmentLoginBinding.root
     }
 
+    /**
+     * buttonLogin is provides login.
+     * backQueue.clear() clears the back queue.
+     *
+     * @param view
+     * @param savedInstanceState
+     */
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         fragmentLoginBinding.apply {
             buttonLogin.setOnClickListener {
-                findNavController().navigate(R.id.action_loginFragment_to_mainFragment)
+                findNavController().apply {
+                    navigate(R.id.action_loginFragment_to_mainFragment)
+                    backQueue.clear()
+                }
             }
         }
     }
 }
+

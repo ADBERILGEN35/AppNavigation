@@ -25,6 +25,5 @@
             android:name="com.example.appnavigation.MainFragment"
             android:label="fragment_main"
             tools:layout="@layout/fragment_main" />
-
     </navigation>
 </navigation>
