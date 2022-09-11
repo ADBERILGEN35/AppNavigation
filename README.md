@@ -3,6 +3,8 @@
 
 Login ve Main graph oluşturup nested graph  olarak eklenmiştir. Login sayfasından Main'e geri gitme durumu engellenmiştir.
 
+[AppLifecycle](https://github.com/FMSSBilisimAndroid/oguzhan_tasyaran_odev3-2-)
+
 ## Ekran Görüntüleri
 
 Join Page             |  Login Page             
