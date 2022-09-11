@@ -9,7 +9,7 @@ Join Page             |  Login Page
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/83397231/189524857-533496da-d0d0-4b16-848f-0d2f6ad6a741.png) |  ![](https://user-images.githubusercontent.com/83397231/189524867-eb8a467a-6f7e-4646-b8b5-a04b6fdff05e.png)
 
-[Uygulama Ekran Kaydı](https://user-images.githubusercontent.com/83397231/188320831-db7ddfb7-9d0b-4ae8-99e7-b58d7280427c.webm)
+[Uygulama Ekran Kaydı](https://user-images.githubusercontent.com/83397231/189528355-ea92ac71-41c8-42db-83e7-b6b927571085.webm)
 
   
 ## Kullanılan Teknolojiler
@@ -23,4 +23,3 @@ Join Page             |  Login Page
 
   
   
-![Screenshot_1662895503]
