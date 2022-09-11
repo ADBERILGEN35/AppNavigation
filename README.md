@@ -1,7 +1,7 @@
 
 # AppNavigation
 
-onViewStateRestored ve  onSaveInstanceState kullanımı gerçekleştirilerek bir örnek yapılmıştır.
+Login ve Main graph oluşturup nested graph  olarak eklenmiştir. Login sayfasından Main'e geri gitme durumu engellenmiştir.
 
 ## Ekran Görüntüleri
 
