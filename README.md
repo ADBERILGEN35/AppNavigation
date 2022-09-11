@@ -5,9 +5,9 @@ onViewStateRestored ve  onSaveInstanceState kullanımı gerçekleştirilerek bir
 
 ## Ekran Görüntüleri
 
-Join Page             |  Login Page             |  Sign Up Page
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/83397231/188320431-cf10be12-2730-464e-8ef6-8a78e6a67851.png)  |  ![](https://user-images.githubusercontent.com/83397231/188320543-75288dfc-5770-47e3-9fb9-660152cb11ba.png)  |  ![](https://user-images.githubusercontent.com/83397231/188320647-20188da1-3ece-404f-a2f7-425a32391a7b.png)
+Join Page             |  Login Page             
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/83397231/189524857-533496da-d0d0-4b16-848f-0d2f6ad6a741.png) |  ![](https://user-images.githubusercontent.com/83397231/189524867-eb8a467a-6f7e-4646-b8b5-a04b6fdff05e.png)
 
 [Uygulama Ekran Kaydı](https://user-images.githubusercontent.com/83397231/188320831-db7ddfb7-9d0b-4ae8-99e7-b58d7280427c.webm)
 
@@ -23,3 +23,4 @@ Join Page             |  Login Page             |  Sign Up Page
 
   
   
+![Screenshot_1662895503]
